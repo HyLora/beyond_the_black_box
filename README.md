@@ -22,9 +22,9 @@ The dataset consists of anonymized qualitative and quantitative survey responses
 ## ⚙️ Installation & Requirements
 
 To run this pipeline locally, you will need Python 3.8+ and the following libraries installed:
-
 ```bash
 pip install pandas numpy scikit-learn sentence-transformers matplotlib seaborn
+```
 🚀 Usage
 To reproduce the findings and generate the semantic clustering visualizations:
 Clone this repository.
