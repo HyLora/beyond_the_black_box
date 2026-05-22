@@ -1,57 +1,46 @@
-# Beyond the Black Box: Backend API & Data Pipeline
+# Beyond the Black Box: Full-Stack Architecture & Data Pipeline
 
-This repository contains the backend architecture, API server, and computational data analysis pipeline used in the Master's Thesis: **"Beyond the Black Box: Designing Frictional Interfaces for Trust Calibration and Appropriate Reliance in Scientific LLMs."** This system bridges a Vercel-hosted frontend prototype with a NebulaGraph backend, serving dynamic Knowledge Graph triples while running an automated Natural Language Processing (NLP) pipeline to analyze user trust metrics.
+This repository contains the complete source code, backend architecture, and computational data analysis pipeline used in the Master's Thesis: **"Beyond the Black Box: Designing Frictional Interfaces for Trust Calibration and Appropriate Reliance in Scientific LLMs."** This system bridges a React-based frontend prototype with a NebulaGraph backend, serving dynamic Knowledge Graph triples while running an automated Natural Language Processing (NLP) pipeline to analyze user trust metrics.
 
 ## 📌 System Architecture
 
-This repository operates as the central nervous system for the "Glass Box" experimental prototype:
-* **Frontend Integration (Vercel):** The API serves dynamically generated semantic triples to the experimental web interface.
-* **Knowledge Graph (NebulaGraph):** Connects to a Nebula graph database to fetch scholarly relationships (ORKG data).
-* **API Layer (FastAPI/Uvicorn):** Handles real-time requests from the frontend during the user study.
-* **Tunneling (Ngrok):** Exposes the local Uvicorn server to the Vercel frontend securely.
-* **Data Analysis (NLP):** Processes qualitative user motivations using `all-MiniLM-L6-v2` sentence embeddings and K-Means clustering.
+This repository contains three major components of the "Glass Box" experimental prototype:
+1. **Frontend UI (`/frontend`):** The interactive web interface where users engage with the LLM and the rendered Knowledge Graph.
+2. **Backend API (`/scripts/api_server.py`):** A FastAPI server that queries a Nebula graph database (ORKG data) and serves semantic triples to the frontend.
+3. **Data Analysis Pipeline (`/scripts/cluster_motivations.py`):** An NLP pipeline that processes qualitative user motivations using `all-MiniLM-L6-v2` sentence embeddings and K-Means clustering.
 
 ## 📂 Repository Structure
 
-### Server & API (`/scripts`)
-* `api_server.py`: The FastAPI application defining the endpoints for the Vercel frontend.
-* `run_full_pipeline.py`: The master orchestrator. Boots up the Uvicorn server, establishes the Ngrok tunnel, and manages the pipeline.
-* `test_endpoint.py`: Utility script to ping and verify the API endpoints and Nebula connection.
-* `auto_coder.py`: Automated text processing script for categorizing user responses.
+### 🖥️ Frontend (Web Interface)
+* Contains the React components, survey rendering (`questionnaire.tsx`), and the interactive UI for the Glass Box and Black Box conditions.
 
-### Data Analysis (`/scripts`)
-* `analyze_results.py`: Handles statistical analysis of behavioral telemetry (Time-on-Task) and cognitive metrics (NASA-TLX).
+### ⚙️ Backend & API (`/scripts`)
+* `api_server.py`: The FastAPI application defining the endpoints.
+* `run_full_pipeline.py`: The master orchestrator. Boots up the Uvicorn server and establishes the Ngrok tunnel.
+* `test_endpoint.py`: Utility script to verify the API and Nebula connection.
+
+### 📊 Data Analysis (`/scripts` & `/data`)
 * `cluster_motivations.py`: Generates the 384-dimensional sentence embeddings and applies unsupervised semantic clustering.
+* `analyze_results.py`: Handles statistical analysis of behavioral telemetry (Time-on-Task) and cognitive metrics (NASA-TLX).
+* `/data`: Contains the anonymized extraction of user responses and the mathematically assigned semantic clusters (`motivations_fully_coded.csv`).
 
-### Data (`/data`)
-* Contains the anonymized extraction of user responses (`motivations_export.csv`), and the mathematically assigned semantic clusters (`motivations_clustered.csv`, `motivations_fully_coded.csv`).
+## 🚀 Installation & Usage
 
-## ⚙️ Installation & Requirements
-
-To run this backend locally, you will need Python 3.8+ and an active NebulaGraph instance. Install the required dependencies:
-
+### 1. Running the Data Analysis Pipeline
+To reproduce the findings and generate the semantic clustering visualizations, install the Python dependencies:
 ```bash
-pip install fastapi uvicorn pyngrok pandas numpy scikit-learn sentence-transformers matplotlib seaborn nebula3-python
+pip install pandas numpy scikit-learn sentence-transformers matplotlib seaborn
 ```
-(Note: Ensure you have your Ngrok authtoken configured on your local machine).
-## 🚀 Usage
-To spin up the backend server and connect it to the Vercel frontend:
-Clone this repository.
-Ensure the CSV files are located in the correct data directory as expected by the scripts.
-Execute the full pipeline:
-```bash
-python scripts/run_full_pipeline.py
-```
-This script will:
-Start the FastAPI server via Uvicorn.
-Initialize an Ngrok tunnel and output the public URL.
-(You must update your Vercel frontend environment variables with this new Ngrok URL to establish the connection).
-To run the post-study NLP clustering and data analysis independently:
+Then execute the analysis script:
 ```bash
 python scripts/cluster_motivations.py
 ```
-## 📊 Methodology Highlights
-* Neuro-Symbolic Anchoring: The API queries NebulaGraph to provide deterministic, explicitly verifiable semantic triples to the LLM interface.
-* Unsupervised Clustering: The pipeline applies K-Means clustering (optimized via silhouette analysis to k=3) to group user sentiments without subjective researcher bias.
+### 2. Running the Backend Server
+To spin up the local API and expose it via Ngrok:
+```bash
+pip install fastapi uvicorn pyngrok nebula3-python
+python scripts/run_full_pipeline.py
+```
+(Note: You must update your frontend .env variables with the newly generated Ngrok URL to establish the connection).
 ## 📜 License & Academic Integrity
 This repository is published in partial fulfillment of the requirements for the Master's Degree in Human-Centered Artificial Intelligence (University of Milan, University of Milano-Bicocca, University of Pavia). The data provided is strictly anonymized to protect participant privacy.
