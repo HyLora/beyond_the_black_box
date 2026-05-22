@@ -1,0 +1,35 @@
+Participant,Group,Question_ID,CARE_Dimension,Rating,Motivation,Cluster,PCA_x,PCA_y
+Group_B_results_20260511_125410,B,6,Explainable (Reasoning),1,"The graph mostly seems to copy the answer from the text, I'm not sure how it is the reasoning to derive the answers.",0,-0.44428113,-0.10625413
+Group_B_results_20260511_125410,B,7,Explainable (Confidence/Trust),2,"Not much, as I'm not clear what the underlying process exactly is",1,-0.07592404,-0.055036604
+Group_B_results_20260512_183111,B,6,Explainable (Reasoning),5,Yeah all were related to the questions,1,-0.15140553,0.19310348
+Group_B_results_20260512_183111,B,7,Explainable (Confidence/Trust),3,I would say that some of it is irrelevant to me as a viewer like the graph but the rest was important,0,-0.2137932,-0.287901
+Group_B_results_20260511_125148,B,6,Explainable (Reasoning),2,"I don't think this is the case, at least not visibly",0,0.16372404,-0.060984757
+Group_B_results_20260511_125148,B,7,Explainable (Confidence/Trust),2,"It would have probably, but i would really need the ability to explore",2,0.42363447,-0.16138905
+Group_B_results_20260511_125559,B,6,Explainable (Reasoning),4,Yes papers and venues from the source paper were provided with the answers.,1,-0.16184813,0.5128614
+Group_B_results_20260511_125559,B,7,Explainable (Confidence/Trust),5,Yes because it can be used to verify the answers.,1,0.056896415,0.33834806
+Group_B_results_20260512_175321,B,6,Explainable (Reasoning),4,"Yes, we can partially see how the system reasons, but not entirely. There is not enough information about how the system accesses this knowledge.",1,-0.14431463,0.30192322
+Group_B_results_20260512_175321,B,7,Explainable (Confidence/Trust),4,I would be open to using a system like this on my research.,1,0.09700107,0.207171
+Group_B_results_20260518_142618,B,6,Explainable (Reasoning),3,"Like I understand the in-text reasoning, that is clear. But where the answer come from, I don't know. I assume its from the ORKG? I further assume that keywords and highlight also come from ORKG?",0,-0.24115302,-0.03595723
+Group_B_results_20260518_142618,B,7,Explainable (Confidence/Trust),1,"No. I neither know if the LLM actually uses the Graph, where the graph comes from, what the graph context is, nor why some things were highlighted and other weren't. 
+If I was provided the information that I reported missing in aforementioned responses, I would trust the system, yes.
+Additionally, the KG shows somewhat how things are related, but the information is pretty trivial and doesn't add much insight; the real insight IMO is in the text with the highlighted keywords!",0,-0.21670385,-0.18653621
+Group_B_results_20260519_110233,B,6,Explainable (Reasoning),3,The graph shows connections but what it is not as clear what is exactly behind each node I suppose?,0,-0.3906484,-0.32630882
+Group_B_results_20260519_110233,B,7,Explainable (Confidence/Trust),3,"It helps, I would prefer it over current LLMs, but I would still be wary.",2,0.46322972,-0.21029268
+Group_B_results_20260511_161636,B,6,Explainable (Reasoning),4,"Yes, the questions where clear also",1,0.03018549,0.30102232
+Group_B_results_20260511_161636,B,7,Explainable (Confidence/Trust),5,Definitely does,2,0.5798598,-0.2161425
+Group_B_results_20260511_125948,B,6,Explainable (Reasoning),4,"Yes based on the provided text, I cloud see the reasoning for the answer",1,0.17571215,0.5069058
+Group_B_results_20260511_125948,B,7,Explainable (Confidence/Trust),4,Yes it does,2,0.514478,-0.007968446
+Group_B_results_20260511_162146,B,6,Explainable (Reasoning),4,Yes in the detailed explanation,1,0.1879065,0.4056491
+Group_B_results_20260511_162146,B,7,Explainable (Confidence/Trust),5,Yes the possibility of seeing the reasoning steps helped,1,-0.017538907,0.092326894
+Group_B_results_20260512_154157,B,6,Explainable (Reasoning),3,It was quite clear while reading the information.,1,-0.17943321,-0.017512621
+Group_B_results_20260512_154157,B,7,Explainable (Confidence/Trust),4,It helped to increase to use my time efficiently.,2,0.3026681,-0.37897763
+Group_B_results_20260512_182748,B,6,Explainable (Reasoning),5,This was easy to follow,0,-0.022769831,-0.19782853
+Group_B_results_20260512_182748,B,7,Explainable (Confidence/Trust),5,It helped with my visualization of the underlying concept that allowed me to conceptualize everything better,0,0.03383299,-0.4785184
+Group_B_results_20260511_125648,B,6,Explainable (Reasoning),4,Yes I can see some reasoning,1,0.15133707,0.22087088
+Group_B_results_20260511_125648,B,7,Explainable (Confidence/Trust),4,Yes it increases my confidence,2,0.5138552,-0.26186526
+Group_B_results_20260512_151955,B,6,Explainable (Reasoning),4,"The graph visualization and contextual explanations helped make the reasoning process more transparent by showing relationships between concepts, papers, and benchmarks. While the full reasoning process was not always completely verifiable, the system still provided more interpretability than a black-box response.",0,-0.40718853,-0.19899707
+Group_B_results_20260512_151955,B,7,Explainable (Confidence/Trust),3,"Seeing the graph and intermediate connections increased my understanding of how the answers were generated and made the process feel more transparent. At the same time, some responses appeared more certain than the available evidence justified, so I would still independently verify information before using it in research.",0,-0.38418177,-0.1263513
+Group_B_results_20260518_151704,B,6,Explainable (Reasoning),3,The retrieval reasoning wasnt always clear,1,-0.1868578,0.00036656504
+Group_B_results_20260518_151704,B,7,Explainable (Confidence/Trust),3,I am not sure I saw much of the underlying process. I would have liked more references to source documents,1,-0.2559392,0.21315224
+Group_B_results_20260511_125628,B,6,Explainable (Reasoning),4,"What I saw between the graph, entities in the text and the 'know more"" section was at least a plausible explanation. I'm not sure if it's the actual reasoning but from a quick glance, it checks out.",0,-0.3039174,-0.26172206
+Group_B_results_20260511_125628,B,7,Explainable (Confidence/Trust),3,Definitely. Though I would want to know more about how the system specifically works to get this information. I would use it more for background questions instead of identifying gaps and novel RQs.,1,0.10357755,0.28284362

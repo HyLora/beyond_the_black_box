@@ -1,0 +1,263 @@
+Participant,Group,Question_ID,CARE_Dimension,Rating,Motivation
+Group_A_results_20260511_125201,A,0,Collaborative (Accurate/Complete),3,".not really, could be simpler."
+Group_A_results_20260511_125201,A,1,Collaborative (Domain Understanding),2,I Don't have knowledge about the domain
+Group_A_results_20260511_125201,A,2,Adaptive (Background/Complexity),4,Yes I see potential.
+Group_A_results_20260511_125201,A,3,Adaptive (Tailored Presentation),2,No really. Needs more information about the user
+Group_A_results_20260511_125201,A,4,Responsible (Verifiability),2,I don't have enough knowledge.
+Group_A_results_20260511_125201,A,5,Responsible (Capabilities/Limitations),2,In some away
+Group_A_results_20260511_125201,A,6,Explainable (Reasoning),2,"No, I didn't see the reasoning."
+Group_A_results_20260511_125201,A,7,Explainable (Confidence/Trust),4,"Yes, increase my trust."
+Group_A_results_20260511_125313,A,0,Collaborative (Accurate/Complete),5,It just felt like it.
+Group_A_results_20260511_125313,A,1,Collaborative (Domain Understanding),5,"I guess so, felt hardcoded though."
+Group_A_results_20260511_125313,A,2,Adaptive (Background/Complexity),5,It helped.
+Group_A_results_20260511_125313,A,3,Adaptive (Tailored Presentation),5,something.
+Group_A_results_20260511_125313,A,4,Responsible (Verifiability),2,"Not sure if you mean I could as in I actually did, or could as in ""I could have"" verified it."
+Group_A_results_20260511_125313,A,5,Responsible (Capabilities/Limitations),2,Not really.
+Group_A_results_20260511_125313,A,6,Explainable (Reasoning),5,"The answers were rational, but I couldn't see the CoT not sure what the question refers to."
+Group_A_results_20260511_125313,A,7,Explainable (Confidence/Trust),1,"Not sure what underlying process means here, I saw no underlying process."
+Group_B_results_20260511_125410,B,0,Collaborative (Accurate/Complete),3,Seems to get the correct papers
+Group_B_results_20260511_125410,B,1,Collaborative (Domain Understanding),1,At some point it started unprompted to talk about on-device LLMs? This didn't seem to be the topic so far
+Group_B_results_20260511_125410,B,2,Adaptive (Background/Complexity),4,Graphs are quite useful!
+Group_B_results_20260511_125410,B,3,Adaptive (Tailored Presentation),4,The graphs are nice
+Group_B_results_20260511_125410,B,4,Responsible (Verifiability),2,It could use screenshots / quotes or links to the actual paper
+Group_B_results_20260511_125410,B,5,Responsible (Capabilities/Limitations),1,It's quite opaque how this is made on a first glance.
+Group_B_results_20260511_125410,B,6,Explainable (Reasoning),1,"The graph mostly seems to copy the answer from the text, I'm not sure how it is the reasoning to derive the answers."
+Group_B_results_20260511_125410,B,7,Explainable (Confidence/Trust),2,"Not much, as I'm not clear what the underlying process exactly is"
+Group_A_results_20260511_125610,A,0,Collaborative (Accurate/Complete),3,They look sound but I need to check them
+Group_A_results_20260511_125610,A,1,Collaborative (Domain Understanding),4,The answers look correct
+Group_A_results_20260511_125610,A,2,Adaptive (Background/Complexity),4,Don’t completely agree. I have to double check everything
+Group_A_results_20260511_125610,A,3,Adaptive (Tailored Presentation),4,Some how
+Group_A_results_20260511_125610,A,4,Responsible (Verifiability),4,I’m not sure
+Group_A_results_20260511_125610,A,5,Responsible (Capabilities/Limitations),3,I can’t
+Group_A_results_20260511_125610,A,6,Explainable (Reasoning),3,I can’t
+Group_A_results_20260511_125610,A,7,Explainable (Confidence/Trust),4,That true
+Group_B_results_20260512_183111,B,0,Collaborative (Accurate/Complete),4,Because i understood the answers to the questions but they can’t be fully complete because you can always dig down into more facts or knowledge
+Group_B_results_20260512_183111,B,1,Collaborative (Domain Understanding),5,Yeah it explained all the knowledge
+Group_B_results_20260512_183111,B,2,Adaptive (Background/Complexity),4,Yeah it didn’t go into the details of the answer without context but i believe there were assumptions about past knowledge
+Group_B_results_20260512_183111,B,3,Adaptive (Tailored Presentation),5,Yeah I fully understood it
+Group_B_results_20260512_183111,B,4,Responsible (Verifiability),3,It made sense logically
+Group_B_results_20260512_183111,B,5,Responsible (Capabilities/Limitations),3,Understood its capabilities but not its limitations fully
+Group_B_results_20260512_183111,B,6,Explainable (Reasoning),5,Yeah all were related to the questions
+Group_B_results_20260512_183111,B,7,Explainable (Confidence/Trust),3,I would say that some of it is irrelevant to me as a viewer like the graph but the rest was important
+Group_A_results_20260511_125542,A,0,Collaborative (Accurate/Complete),3,I don't have the background to judge.
+Group_A_results_20260511_125542,A,1,Collaborative (Domain Understanding),4,"Yes, but I think it bias the task to its understanding of the scientific domain by suggesting follow up steps"
+Group_A_results_20260511_125542,A,2,Adaptive (Background/Complexity),3,"I think it is nice that the background is there, but I didn't check it, the summary looked enough to me."
+Group_A_results_20260511_125542,A,3,Adaptive (Tailored Presentation),5,"Yes, I think so."
+Group_A_results_20260511_125542,A,4,Responsible (Verifiability),3,Not more than with any other llm interface.
+Group_A_results_20260511_125542,A,5,Responsible (Capabilities/Limitations),1,"No, I didn't see any warning on limitations, instead the system was leading the conversation what shows confidence."
+Group_A_results_20260511_125542,A,6,Explainable (Reasoning),3,"Yes, but I can't evaluate hoe correct this reasoning is"
+Group_A_results_20260511_125542,A,7,Explainable (Confidence/Trust),3,No more than other llms. I would need to actually check the sources on topics I know to generate trust on it.
+Group_B_results_20260511_125148,B,0,Collaborative (Accurate/Complete),4,They seemed correct
+Group_B_results_20260511_125148,B,1,Collaborative (Domain Understanding),3,It felt preprogrammed so i cannot conclude how broad the understanding is from this
+Group_B_results_20260511_125148,B,2,Adaptive (Background/Complexity),2,"The background in text was more useful than the graph, but i doubt that either would be that helpful if i didn't know the paper"
+Group_B_results_20260511_125148,B,3,Adaptive (Tailored Presentation),3,"I didn't feel it was personalized, though it was certainly tailored to the questions"
+Group_B_results_20260511_125148,B,4,Responsible (Verifiability),1,"I don't think i could, there were no sources"
+Group_B_results_20260511_125148,B,5,Responsible (Capabilities/Limitations),2,"The descriptions were on a higher level, so it was hard to understand in depth"
+Group_B_results_20260511_125148,B,6,Explainable (Reasoning),2,"I don't think this is the case, at least not visibly"
+Group_B_results_20260511_125148,B,7,Explainable (Confidence/Trust),2,"It would have probably, but i would really need the ability to explore"
+Group_B_results_20260511_125559,B,0,Collaborative (Accurate/Complete),4,"The answers felt complete and correct. However, I am not an expert in LLMs so not fully confident in evaluating the correctness."
+Group_B_results_20260511_125559,B,1,Collaborative (Domain Understanding),4,"Yes, although it seemed to randomly move from BERT to on-device LLMs."
+Group_B_results_20260511_125559,B,2,Adaptive (Background/Complexity),5,Background is very helpful.
+Group_B_results_20260511_125559,B,3,Adaptive (Tailored Presentation),5,"Yes, clear structure and graphs."
+Group_B_results_20260511_125559,B,4,Responsible (Verifiability),5,Yes because it gave clear papers.
+Group_B_results_20260511_125559,B,5,Responsible (Capabilities/Limitations),2,I am not sure how the system was developed.
+Group_B_results_20260511_125559,B,6,Explainable (Reasoning),4,Yes papers and venues from the source paper were provided with the answers.
+Group_B_results_20260511_125559,B,7,Explainable (Confidence/Trust),5,Yes because it can be used to verify the answers.
+Group_A_results_20260511_130222,A,0,Collaborative (Accurate/Complete),3,I would've felt the answers were accurate and complete if it provided sources which were used to arrive at the summary.
+Group_A_results_20260511_130222,A,1,Collaborative (Domain Understanding),3,Considering the bias I have towards LLM based answers I consider this to be the appropriate rating.
+Group_A_results_20260511_130222,A,2,Adaptive (Background/Complexity),3,Yes. If I had completely trusted the answers I would have rated it 5.
+Group_A_results_20260511_130222,A,3,Adaptive (Tailored Presentation),4,Structuring of the information was good.
+Group_A_results_20260511_130222,A,4,Responsible (Verifiability),3,I did not perform any action for verfying the facts.
+Group_A_results_20260511_130222,A,5,Responsible (Capabilities/Limitations),1,Nope..
+Group_A_results_20260511_130222,A,6,Explainable (Reasoning),1,Nope..
+Group_A_results_20260511_130222,A,7,Explainable (Confidence/Trust),1,Nope..
+Group_B_results_20260512_175321,B,0,Collaborative (Accurate/Complete),4,"They all seemed accurate, except for the one that responded to the request for zero-shot accuracy, since it did not provide a numerical response, and the provided response did not clarify the performance of the model."
+Group_B_results_20260512_175321,B,1,Collaborative (Domain Understanding),3,"Yes, but the understanding was more about the literature than the scientific domain. The questions were about specific information of certain papers, venues, results... not that much about the research itself. Also, these examples only demonstrate knowledge about the AI domain, not general science."
+Group_B_results_20260512_175321,B,2,Adaptive (Background/Complexity),5,"Yes, the background is good."
+Group_B_results_20260512_175321,B,3,Adaptive (Tailored Presentation),4,"Yes, and it was nice being able to see the KG."
+Group_B_results_20260512_175321,B,4,Responsible (Verifiability),4,"All the facts can potentially be verified, but some are harder to verify than others. For instance, the questions about BERT are easier to verify, since it is one of the most well-known systems and this knowledge is more accessible"
+Group_B_results_20260512_175321,B,5,Responsible (Capabilities/Limitations),2,The exercise did not provide much information about this.
+Group_B_results_20260512_175321,B,6,Explainable (Reasoning),4,"Yes, we can partially see how the system reasons, but not entirely. There is not enough information about how the system accesses this knowledge."
+Group_B_results_20260512_175321,B,7,Explainable (Confidence/Trust),4,I would be open to using a system like this on my research.
+Group_A_results_20260511_125220,A,0,Collaborative (Accurate/Complete),4,They seems accurate.
+Group_A_results_20260511_125220,A,1,Collaborative (Domain Understanding),3,It'ss hard to gauge real understanding from a preprogrammed dialogue.
+Group_A_results_20260511_125220,A,2,Adaptive (Background/Complexity),3,Not really.
+Group_A_results_20260511_125220,A,3,Adaptive (Tailored Presentation),3,For some answers more than others..
+Group_A_results_20260511_125220,A,4,Responsible (Verifiability),2,It's not really verification if the extra information also comes from the chatbot. Real verification should happen outside the chatbot dialogue.
+Group_A_results_20260511_125220,A,5,Responsible (Capabilities/Limitations),3,Not from this short example.
+Group_A_results_20260511_125220,A,6,Explainable (Reasoning),2,Not from by this example.
+Group_A_results_20260511_125220,A,7,Explainable (Confidence/Trust),3,I can't say that I did see the underlying process. I just saw extra j formation.
+Group_B_results_20260518_142618,B,0,Collaborative (Accurate/Complete),4,"I feel like the answers were general enough and the questions weren't deep/specific enough to mistrust the answers. On such a ""general level"", yes, I feel like the answer were accurate and complete."
+Group_B_results_20260518_142618,B,1,Collaborative (Domain Understanding),3,Somewhat. A more elaborative graph would help tremendously. The system has the *potential* to demonstrate a clear understanding.
+Group_B_results_20260518_142618,B,2,Adaptive (Background/Complexity),5,"Yes! I liked being able to click on highlighted keywords and get more insight. But, I wish there would've been more highlighted keywords (or that I could select them myself), and that I could ask additional questions inside the context box, regarding specific keyword explanations. Also I was able to only get explanations for one keyword."
+Group_B_results_20260518_142618,B,3,Adaptive (Tailored Presentation),4,A more extensive graph would've helped better
+Group_B_results_20260518_142618,B,4,Responsible (Verifiability),2,"There is no source given as to where the LLM got its info from. Furthermore, when expanding on a concept to learn more about it, it wasn't always relevant, sometimes besides the point. 
+I rather felt like a was given an arbitrary set of related concepts, some of which I could get an (incomplete expansion on).
+Also when clicking ""Keyword Expand"" I don't know where the new terms come from, why they haven't been there in the first place, and why those instead of others."
+Group_B_results_20260518_142618,B,5,Responsible (Capabilities/Limitations),3,"Due to not knowing how the system gets its information and how it selects keywords, i don't know what it can and cannot do, or how thorough it is. I am especially concerned with the systems recall (i.e. does it find everything relevant?)"
+Group_B_results_20260518_142618,B,6,Explainable (Reasoning),3,"Like I understand the in-text reasoning, that is clear. But where the answer come from, I don't know. I assume its from the ORKG? I further assume that keywords and highlight also come from ORKG?"
+Group_B_results_20260518_142618,B,7,Explainable (Confidence/Trust),1,"No. I neither know if the LLM actually uses the Graph, where the graph comes from, what the graph context is, nor why some things were highlighted and other weren't. 
+If I was provided the information that I reported missing in aforementioned responses, I would trust the system, yes.
+Additionally, the KG shows somewhat how things are related, but the information is pretty trivial and doesn't add much insight; the real insight IMO is in the text with the highlighted keywords!"
+Group_A_results_20260511_125529,A,0,Collaborative (Accurate/Complete),2,It was just based on a few papers
+Group_A_results_20260511_125529,A,1,Collaborative (Domain Understanding),4,It was good based on the extracted papers
+Group_A_results_20260511_125529,A,2,Adaptive (Background/Complexity),4,I understood the task
+Group_A_results_20260511_125529,A,3,Adaptive (Tailored Presentation),3,It helped
+Group_A_results_20260511_125529,A,4,Responsible (Verifiability),2,I can verify that given path. But I am not sure if this is the only path.
+Group_A_results_20260511_125529,A,5,Responsible (Capabilities/Limitations),4,"capabilities: understanding one paper, searching, and suggesting new directions
+Limitations: very specific to one paper. I also didn't see any deep reasoning there"
+Group_A_results_20260511_125529,A,6,Explainable (Reasoning),3,Not sure.
+Group_A_results_20260511_125529,A,7,Explainable (Confidence/Trust),2,Disagree.
+Group_B_results_20260519_110233,B,0,Collaborative (Accurate/Complete),4,"As far as I'm aware, they seemed fine. However, due to the design of the study (the pre-made questions and no option to ask things myself) it was difficult to dive deeper into the information to find reasoning flaws or wrong answers."
+Group_B_results_20260519_110233,B,1,Collaborative (Domain Understanding),4,It was clear
+Group_B_results_20260519_110233,B,2,Adaptive (Background/Complexity),3,"Presenting the graph itself did not help me much, but this might be due to already existing knowledge of AI. However, visualising the disconnected nodes for unrelated topics was a bit helpful to grasp the idea of no knowledge of a relation between concepts. I might find this part the most useful for research to explore research gaps."
+Group_B_results_20260519_110233,B,3,Adaptive (Tailored Presentation),2,"I found the explanations a bit lengthy and could have been somewhat simplified. Although it's target audience is supposedly scientists, I think simplifying some of the text would make working with it quicker. 
+In addition: it asks whether I need more info about one of the highlighted words. However, once I clicked on one of them, I couldn't click on another one anymore."
+Group_B_results_20260519_110233,B,4,Responsible (Verifiability),3,"Depending on the question I suppose. The graph helps with verifying the algorithm on saying what it is trained to say, but verifying whether it is trained correctly would depend on the question."
+Group_B_results_20260519_110233,B,5,Responsible (Capabilities/Limitations),4,"Somehwat yes, somewhat no. More than other LLM's due to the graph, but there are probably many more limitations I'm not aware of."
+Group_B_results_20260519_110233,B,6,Explainable (Reasoning),3,The graph shows connections but what it is not as clear what is exactly behind each node I suppose?
+Group_B_results_20260519_110233,B,7,Explainable (Confidence/Trust),3,"It helps, I would prefer it over current LLMs, but I would still be wary."
+Group_A_results_20260511_125246,A,0,Collaborative (Accurate/Complete),4,The answer should provide links to the original works to verify the Assistant statements
+Group_A_results_20260511_125246,A,1,Collaborative (Domain Understanding),3,"For sure the system is able to provide information and answer the question, but we cannot generaliste to the whole domain"
+Group_A_results_20260511_125246,A,2,Adaptive (Background/Complexity),5,Definitely useful in extracting salient information
+Group_A_results_20260511_125246,A,3,Adaptive (Tailored Presentation),4,"Yes, but the questions proposed were already very specific, pointing at the fact that the user was already aware of technical details."
+Group_A_results_20260511_125246,A,4,Responsible (Verifiability),4,"Yes, for all of them, but it requires effort since there were no links to original sources"
+Group_A_results_20260511_125246,A,5,Responsible (Capabilities/Limitations),5,To the best of my knowledge: yes.
+Group_A_results_20260511_125246,A,6,Explainable (Reasoning),3,"It seems a good question answering tool, for scientific knowledge. But is it taking from the web? From a specific knowledge base? From previous training?"
+Group_A_results_20260511_125246,A,7,Explainable (Confidence/Trust),4,For sure a step by step exploration is better than a hyper focused answer
+Group_A_results_20260511_125102,A,0,Collaborative (Accurate/Complete),4,No link to source so I can check for myself
+Group_A_results_20260511_125102,A,1,Collaborative (Domain Understanding),4,It seemed to understand a conference is a place where computer scientists publish peer reviewed papers
+Group_A_results_20260511_125102,A,2,Adaptive (Background/Complexity),3,Not really - but this may be due to the boilerplate nature of the queries
+Group_A_results_20260511_125102,A,3,Adaptive (Tailored Presentation),4,Sure .
+Group_A_results_20260511_125102,A,4,Responsible (Verifiability),3,No links to (primary) sources provided
+Group_A_results_20260511_125102,A,5,Responsible (Capabilities/Limitations),2,Not from one example
+Group_A_results_20260511_125102,A,6,Explainable (Reasoning),3,Not so clear
+Group_A_results_20260511_125102,A,7,Explainable (Confidence/Trust),4,I like this approach
+Group_B_results_20260511_161636,B,0,Collaborative (Accurate/Complete),3,It always feel that the answer are a bit general when interacting with an llm
+Group_B_results_20260511_161636,B,1,Collaborative (Domain Understanding),2,"The topic was quite popular, what about a more narrow domain?"
+Group_B_results_20260511_161636,B,2,Adaptive (Background/Complexity),4,The more long explanation of the answer actually helps a bit.
+Group_B_results_20260511_161636,B,3,Adaptive (Tailored Presentation),4,The visualization works well and the kg helps
+Group_B_results_20260511_161636,B,4,Responsible (Verifiability),3,Do not see hallucinations but probably if I would use it really in my research I would double check the things said
+Group_B_results_20260511_161636,B,5,Responsible (Capabilities/Limitations),2,Not really with this experiment.
+Group_B_results_20260511_161636,B,6,Explainable (Reasoning),4,"Yes, the questions where clear also"
+Group_B_results_20260511_161636,B,7,Explainable (Confidence/Trust),5,Definitely does
+Group_B_results_20260511_125948,B,0,Collaborative (Accurate/Complete),4,"In the KG generated for the score of the evaluation on the specific dataset, there was realtion between the llm and the score but no realtion between the dataset and the score."
+Group_B_results_20260511_125948,B,1,Collaborative (Domain Understanding),4,Yes it was clear but not comprehensive
+Group_B_results_20260511_125948,B,2,Adaptive (Background/Complexity),5,Definitely
+Group_B_results_20260511_125948,B,3,Adaptive (Tailored Presentation),5,The information was helpful
+Group_B_results_20260511_125948,B,4,Responsible (Verifiability),4,Yes that was abvious
+Group_B_results_20260511_125948,B,5,Responsible (Capabilities/Limitations),4,"I see the demo is helpful for quick understanding of the answer, however, it could be more comprehensive"
+Group_B_results_20260511_125948,B,6,Explainable (Reasoning),4,"Yes based on the provided text, I cloud see the reasoning for the answer"
+Group_B_results_20260511_125948,B,7,Explainable (Confidence/Trust),4,Yes it does
+Group_A_results_20260511_125748,A,0,Collaborative (Accurate/Complete),4,"It is difficult to assess the completeness as this requires in-depth domain knowledge. However, the results appear to be extensive and accurate."
+Group_A_results_20260511_125748,A,1,Collaborative (Domain Understanding),5,"The replies were written very convincingly. In my perception, this indicated a clear understanding of the domain, but this could also be the result of the halo-effect, where the perception of confidence influenced my judgment."
+Group_A_results_20260511_125748,A,2,Adaptive (Background/Complexity),4,"Yes, the background was very usefull, but it would have been better if it also included references to papers where the model got the information from. This was mainly lacking in the phase of identifying the gaps in literature. This would also make it easier to use the results in our own papers, as now we would need to cite this information with 'my LLM said so'"
+Group_A_results_20260511_125748,A,3,Adaptive (Tailored Presentation),5,No real comments.
+Group_A_results_20260511_125748,A,4,Responsible (Verifiability),3,"Like I said earlier, some replies missed the necessary citations to be able to validate the results."
+Group_A_results_20260511_125748,A,5,Responsible (Capabilities/Limitations),4,I think this is mainly because of my background knowledge with using similar systems. It might be good to include a disclaimer or something in the beginning.
+Group_A_results_20260511_125748,A,6,Explainable (Reasoning),3,"I don't really understand this question. What do you mean with reasoning? Is it why the LLM gave the specific answers? If so, it look alright, but I did not have an in depth understanding of what was happening."
+Group_A_results_20260511_125748,A,7,Explainable (Confidence/Trust),5,For sure
+Group_B_results_20260511_162146,B,0,Collaborative (Accurate/Complete),5,"They were, and the provenance informations about the paper helped in that! could be nice to also have a DOI for easier search ability of the references"
+Group_B_results_20260511_162146,B,1,Collaborative (Domain Understanding),5,"Yes, by connecting the dots across topics"
+Group_B_results_20260511_162146,B,2,Adaptive (Background/Complexity),5,"Yes, the system helped breaking down the task in steps"
+Group_B_results_20260511_162146,B,3,Adaptive (Tailored Presentation),4,"Yes, even though it still requires some background knowledge on the user side"
+Group_B_results_20260511_162146,B,4,Responsible (Verifiability),5,"Yes, but links to sources would make it easier"
+Group_B_results_20260511_162146,B,5,Responsible (Capabilities/Limitations),3,No emphasis on limitations
+Group_B_results_20260511_162146,B,6,Explainable (Reasoning),4,Yes in the detailed explanation
+Group_B_results_20260511_162146,B,7,Explainable (Confidence/Trust),5,Yes the possibility of seeing the reasoning steps helped
+Group_B_results_20260512_154157,B,0,Collaborative (Accurate/Complete),3,I felt needed to double check for some information in general.
+Group_B_results_20260512_154157,B,1,Collaborative (Domain Understanding),4,It was clear with the provided references.
+Group_B_results_20260512_154157,B,2,Adaptive (Background/Complexity),4,"In term of explaining the terminology, it provided me to handle complexity of the answer."
+Group_B_results_20260512_154157,B,3,Adaptive (Tailored Presentation),5,"Yes, and the graphs were helped to understand better."
+Group_B_results_20260512_154157,B,4,Responsible (Verifiability),4,Need to double check references.
+Group_B_results_20260512_154157,B,5,Responsible (Capabilities/Limitations),4,The system may require to have improvisation.
+Group_B_results_20260512_154157,B,6,Explainable (Reasoning),3,It was quite clear while reading the information.
+Group_B_results_20260512_154157,B,7,Explainable (Confidence/Trust),4,It helped to increase to use my time efficiently.
+Group_A_results_20260511_125442,A,0,Collaborative (Accurate/Complete),5,They contained the required info
+Group_A_results_20260511_125442,A,1,Collaborative (Domain Understanding),5,The answers were directly answering that question
+Group_A_results_20260511_125442,A,2,Adaptive (Background/Complexity),4,The answers provided some context
+Group_A_results_20260511_125442,A,3,Adaptive (Tailored Presentation),5,All the information displayed seems relevant
+Group_A_results_20260511_125442,A,4,Responsible (Verifiability),3,"In principle yes, but this process could be made easier by pointing to parts of the papers"
+Group_A_results_20260511_125442,A,5,Responsible (Capabilities/Limitations),3,It gives a vague idea of some limitations
+Group_A_results_20260511_125442,A,6,Explainable (Reasoning),4,In the details panel some of the reasoning emerges
+Group_A_results_20260511_125442,A,7,Explainable (Confidence/Trust),4,Swing the process leading to an answer increases trust
+Group_A_results_20260511_125053,A,0,Collaborative (Accurate/Complete),3,My domain knowledge is too limited to assess this
+Group_A_results_20260511_125053,A,1,Collaborative (Domain Understanding),4,"It seemed so, but I don't know this research area well enough."
+Group_A_results_20260511_125053,A,2,Adaptive (Background/Complexity),4,"I could see this being helpful. On the specific examples, I decided to skip this part as it was too technical for me."
+Group_A_results_20260511_125053,A,3,Adaptive (Tailored Presentation),4,I got the idea
+Group_A_results_20260511_125053,A,4,Responsible (Verifiability),4,"References were given, which I could probably look up"
+Group_A_results_20260511_125053,A,5,Responsible (Capabilities/Limitations),2,Hard to tell without knowledge of the domain.
+Group_A_results_20260511_125053,A,6,Explainable (Reasoning),2,I didn't check the detailed answers in detail.
+Group_A_results_20260511_125053,A,7,Explainable (Confidence/Trust),4,I am not sure what to say here.
+Group_B_results_20260512_182748,B,0,Collaborative (Accurate/Complete),5,"From what I understood about the topic, it seemed to have a good understanding of it"
+Group_B_results_20260512_182748,B,1,Collaborative (Domain Understanding),5,It seems to understand well
+Group_B_results_20260512_182748,B,2,Adaptive (Background/Complexity),5,"As a visual learner, it allowed me to fully grasp the task"
+Group_B_results_20260512_182748,B,3,Adaptive (Tailored Presentation),4,"It was mostly precise to the premise of the question l, sometimes providing important context."
+Group_B_results_20260512_182748,B,4,Responsible (Verifiability),3,"I could follow the reasoning behind the answers, however verifying would require external knowledge/research which I didn’t do"
+Group_B_results_20260512_182748,B,5,Responsible (Capabilities/Limitations),5,"Same as most llms have limits, not everything is perfect"
+Group_B_results_20260512_182748,B,6,Explainable (Reasoning),5,This was easy to follow
+Group_B_results_20260512_182748,B,7,Explainable (Confidence/Trust),5,It helped with my visualization of the underlying concept that allowed me to conceptualize everything better
+Group_A_results_20260508_145536,A,0,Collaborative (Accurate/Complete),4,It Seemed! But hard to say if they are complete without having the original papers etc.
+Group_A_results_20260508_145536,A,1,Collaborative (Domain Understanding),4,"It could reason about it, but weather is understanding I am not sure."
+Group_A_results_20260508_145536,A,2,Adaptive (Background/Complexity),5,I agrer
+Group_A_results_20260508_145536,A,3,Adaptive (Tailored Presentation),5,Did not feel tailored but non the less useful.
+Group_A_results_20260508_145536,A,4,Responsible (Verifiability),5,"Especially with one paper at a time, it should be possible to check."
+Group_A_results_20260508_145536,A,5,Responsible (Capabilities/Limitations),3,"Not really, too short Interaction to understand"
+Group_A_results_20260508_145536,A,6,Explainable (Reasoning),4,I agree
+Group_A_results_20260508_145536,A,7,Explainable (Confidence/Trust),3,That paper is very very popular. Im not sure it will work with others.
+Group_A_results_20260511_125215,A,0,Collaborative (Accurate/Complete),5,They seemed reliable and provided detailed statistics and sources
+Group_A_results_20260511_125215,A,1,Collaborative (Domain Understanding),5,At least it seems so
+Group_A_results_20260511_125215,A,2,Adaptive (Background/Complexity),5,"For literature review definitely, but i will still have to verify them"
+Group_A_results_20260511_125215,A,3,Adaptive (Tailored Presentation),4,I’m not familiar with this field..
+Group_A_results_20260511_125215,A,4,Responsible (Verifiability),5,text bold helped
+Group_A_results_20260511_125215,A,5,Responsible (Capabilities/Limitations),4,I’m not sure. I feel it can sort out current research. Im not sure of its capability of reasoning
+Group_A_results_20260511_125215,A,6,Explainable (Reasoning),4,Kind of
+Group_A_results_20260511_125215,A,7,Explainable (Confidence/Trust),4,"Would be useful ofc. It could be better tho, if everything it mentioned could also provide a link to the papers so i can check them quickly"
+Group_B_results_20260511_125648,B,0,Collaborative (Accurate/Complete),4,Its answers all seem to be based on something.
+Group_B_results_20260511_125648,B,1,Collaborative (Domain Understanding),5,Knowledge graphs make understanding clearer.
+Group_B_results_20260511_125648,B,2,Adaptive (Background/Complexity),4,Knowledge graph
+Group_B_results_20260511_125648,B,3,Adaptive (Tailored Presentation),4,The form of information presentation is very good.
+Group_B_results_20260511_125648,B,4,Responsible (Verifiability),5,Its answers all seem to be based on something.
+Group_B_results_20260511_125648,B,5,Responsible (Capabilities/Limitations),3,"It seems that I can't change the question, so I'm not sure about the system limitations."
+Group_B_results_20260511_125648,B,6,Explainable (Reasoning),4,Yes I can see some reasoning
+Group_B_results_20260511_125648,B,7,Explainable (Confidence/Trust),4,Yes it increases my confidence
+Group_B_results_20260512_151955,B,0,Collaborative (Accurate/Complete),3,"The system handled straightforward factual questions well, especially when the KG supported the answer. However, for more complex literature-analysis and synthesis tasks, some responses seemed less reliable. I cannot say with certainty that the answers were wrong, but some benchmark details and literature references felt insufficiently grounded."
+Group_B_results_20260512_151955,B,1,Collaborative (Domain Understanding),4,"The system generally showed a good understanding of the scientific domain and used relevant concepts, benchmarks, and terminology. The integration of KG helped connect related information and provide contextualized answers, but in some of the more complex research-oriented queries, certain claims felt somewhat uncertain or insufficiently verified, so I was not fully confident in all outputs."
+Group_B_results_20260512_151955,B,2,Adaptive (Background/Complexity),4,"The background explanations and the evidence graph helped make the answers easier to follow, especially for more complex research questions. The graph structure was useful for understanding how concepts, papers, and benchmarks were connected, and it helped reduce some of the complexity of the task. However, in some cases the additional context also made uncertain claims appear more authoritative than they may actually have been."
+Group_B_results_20260512_151955,B,3,Adaptive (Tailored Presentation),4,"The combination of textual explanations and graph visualization made the information easier to understand and navigate. The keywords and relationships helped clarify how the answer was constructed and provided useful context. In some cases, however,  the underlying evidence was not fully clear, considering the ""high confidence"" of the answers."
+Group_B_results_20260512_151955,B,4,Responsible (Verifiability),3,"The evidence graph and keywords helped me trace where parts of the answers were coming from, especially for factual queries. But again, for complex synthesis and literature-related tasks, it was sometimes difficult to determine whether connections shown in the graph represented verified evidence or semantic associations inferred by the system."
+Group_B_results_20260512_151955,B,5,Responsible (Capabilities/Limitations),4,"The interface and graph structure made it relatively clear that the system combines LLM-based generation with KG connections. Also, thanks to the initial examples, it was easier to understand that the system performs better on straightforward factual retrieval."
+Group_B_results_20260512_151955,B,6,Explainable (Reasoning),4,"The graph visualization and contextual explanations helped make the reasoning process more transparent by showing relationships between concepts, papers, and benchmarks. While the full reasoning process was not always completely verifiable, the system still provided more interpretability than a black-box response."
+Group_B_results_20260512_151955,B,7,Explainable (Confidence/Trust),3,"Seeing the graph and intermediate connections increased my understanding of how the answers were generated and made the process feel more transparent. At the same time, some responses appeared more certain than the available evidence justified, so I would still independently verify information before using it in research."
+Group_B_results_20260518_151704,B,0,Collaborative (Accurate/Complete),3,The KGs generated were quite small and seemed to lack key details. The textual answers were also sometimes quite focused where I would have expected some more variation.
+Group_B_results_20260518_151704,B,1,Collaborative (Domain Understanding),3,The KG visualisation was quite general and I missed scientific detail.
+Group_B_results_20260518_151704,B,2,Adaptive (Background/Complexity),4,the combination of visual and textual information is helpful.
+Group_B_results_20260518_151704,B,3,Adaptive (Tailored Presentation),4,the combination of visual and textual information is nice.
+Group_B_results_20260518_151704,B,4,Responsible (Verifiability),2,"Not really, I was missing references to source documents"
+Group_B_results_20260518_151704,B,5,Responsible (Capabilities/Limitations),3,Which part of the KG was shown was not always clear to me
+Group_B_results_20260518_151704,B,6,Explainable (Reasoning),3,The retrieval reasoning wasnt always clear
+Group_B_results_20260518_151704,B,7,Explainable (Confidence/Trust),3,I am not sure I saw much of the underlying process. I would have liked more references to source documents
+Group_A_results_20260511_125521,A,0,Collaborative (Accurate/Complete),5,I am fairly confident in the info retrieved by the system
+Group_A_results_20260511_125521,A,1,Collaborative (Domain Understanding),4,"I would not say it is a case of ""understanding"". Rather,  the system can retrieve relevant knowledge that enables my own understanding of the topic."
+Group_A_results_20260511_125521,A,2,Adaptive (Background/Complexity),5,The background text is reassuring.
+Group_A_results_20260511_125521,A,3,Adaptive (Tailored Presentation),5,The text felt approachable.
+Group_A_results_20260511_125521,A,4,Responsible (Verifiability),3,"While every answer is presented in both a brief and underdtandable snippet and in an on-demand, in-depth background text, I feel like this background text does not really let me ""verify"" the facts, as it is yet another machine-generater (summary) test. I would need linked references to the actual text to feel confident."
+Group_A_results_20260511_125521,A,5,Responsible (Capabilities/Limitations),4,I think understanding of limitations comes a lot from one's AI literacy. Perhaps the tutorial for the use of the system should clearly state the limits.
+Group_A_results_20260511_125521,A,6,Explainable (Reasoning),4,"I can use the background text as a double check on the veracity of the information provided, so it is ""explainable"" in this sense. I would not say it is too ""explainable"" in the sense of the system's functioning, which is still not too clear to me"
+Group_A_results_20260511_125521,A,7,Explainable (Confidence/Trust),3,I would still need to check the original sources before using them for research.
+Group_A_results_20260511_130221,A,0,Collaborative (Accurate/Complete),3,I would've felt the answers were accurate and complete if it provided sources which were used to arrive at the summary.
+Group_A_results_20260511_130221,A,1,Collaborative (Domain Understanding),3,Considering the bias I have towards LLM based answers I consider this to be the appropriate rating.
+Group_A_results_20260511_130221,A,2,Adaptive (Background/Complexity),3,Yes. If I had completely trusted the answers I would have rated it 5.
+Group_A_results_20260511_130221,A,3,Adaptive (Tailored Presentation),4,Structuring of the information was good.
+Group_A_results_20260511_130221,A,4,Responsible (Verifiability),3,I did not perform any action for verfying the facts.
+Group_A_results_20260511_130221,A,5,Responsible (Capabilities/Limitations),1,Nope..
+Group_A_results_20260511_130221,A,6,Explainable (Reasoning),1,Nope..
+Group_A_results_20260511_130221,A,7,Explainable (Confidence/Trust),1,Nope..
+Group_B_results_20260511_125628,B,0,Collaborative (Accurate/Complete),3,"Some of the titles were a bit inconsistent (Mobile LLM vs Mobile LLU) and the LLM hallucination mitigation part had the current research as the main answer, and left the gaps only in the ""extended reasoning"" section (when we had specifically asked for gaps and novel RQs). The rest was good."
+Group_B_results_20260511_125628,B,1,Collaborative (Domain Understanding),4,Yes it was all plausible.
+Group_B_results_20260511_125628,B,2,Adaptive (Background/Complexity),4,That was pretty helpful to make me trust it a bit more.
+Group_B_results_20260511_125628,B,3,Adaptive (Tailored Presentation),4,Yes definitely!
+Group_B_results_20260511_125628,B,4,Responsible (Verifiability),4,"I have some background with transformer models so I could verify most of it. However with the mitigation research I wasn't sure of the assistant's assertion of there just being ""two main strands"" of that research. I would guess there being more."
+Group_B_results_20260511_125628,B,5,Responsible (Capabilities/Limitations),4,I would want to know more about internal workings (like how does the knowledge graph interact with the LLM's text response?)
+Group_B_results_20260511_125628,B,6,Explainable (Reasoning),4,"What I saw between the graph, entities in the text and the 'know more"" section was at least a plausible explanation. I'm not sure if it's the actual reasoning but from a quick glance, it checks out."
+Group_B_results_20260511_125628,B,7,Explainable (Confidence/Trust),3,Definitely. Though I would want to know more about how the system specifically works to get this information. I would use it more for background questions instead of identifying gaps and novel RQs.
